@@ -1,36 +1,31 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Multiverse', // <title>
-  manifestName: 'Multiverse',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'NYC, Visualized',
+  manifestName: 'Demo',
+  manifestShortName: 'Landing', 
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-multiverse/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav',
-  subHeading: 'Web Developer',
+  pathPrefix: `/gatsby-starter-multiverse/`,
+  heading: 'New York City, Visualized',
+  subHeading: 'Jorge Quiroz',
   // social
   socialLinks: [
     {
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/jorgemquiroz/',
+    },
+    {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://github.com/JQuiroz728',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:gerschjr@gmail.com',
     },
   ],
 };

@@ -90,7 +90,10 @@ class Gallery extends Component {
         <Lightbox
           currentImage={this.state.currentImage}
           images={this.props.images.map(img => {
-            img.caption = `${img.title} - ${img.desc}`;
+            img.caption = <section>
+              {img.title} - {img.desc}.   
+              <a href={img.demoLink} target={'_blank'}> Visualization</a>
+            </section>
             return img;
           })}
           isOpen={this.state.lightboxIsOpen}
